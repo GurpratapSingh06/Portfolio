@@ -525,6 +525,90 @@ nav ul li a.active {
     font-weight: 500;
 }
 
+.skills-intro {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.skills-categories {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.category {
+    background: var(--white);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--gray);
+}
+
+.category h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.category h3 i {
+    color: var(--primary-color);
+}
+
+.skill-bars {
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.skill-bar {
+    height: 10px;
+    background: var(--light-gray);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    background: var(--primary-color);
+    border-radius: 5px;
+    width: 0;
+    transition: width 1.5s ease;
+}
+
+.skill-percent {
+    text-align: right;
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    background: var(--light-gray);
+    color: var(--text-color);
+    padding: 8px 15px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
 /* Education Section */
 .timeline {
     position: relative;
